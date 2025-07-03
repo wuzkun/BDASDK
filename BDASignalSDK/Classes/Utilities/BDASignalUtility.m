@@ -51,7 +51,7 @@
     }
     
     NSMutableDictionary *headerParam = [NSMutableDictionary dictionary];
-    headerParam[@"h20"] = [self h20];
+    headerParam[@"h20"] = h20;
     headerParam[@"h19"] = [BDASignalManager getIdfaStatus] ? [self h19] : @"";
     headerParam[@"h12"] = [self h12];
     headerParam[@"h3"] = [self h3];
